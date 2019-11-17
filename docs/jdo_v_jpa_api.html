@@ -13,7 +13,7 @@
 
     <title>JDO TEST</title>
 
-    <link rel="icon" type="image/png" href="http://www.datanucleus.org/images/datanucleus_favicon.png"/>
+    <link rel="icon" type="image/png" href="https://tzaeschke.github.io/test-jdo-asciidoc/images/JDO_32x32.png"/>
 
     <!--
         Apache JDO Documentation Template
@@ -39,6 +39,7 @@
 
     
 
+    
     
     
 
@@ -153,7 +154,7 @@ table.CodeRay td.code>pre{padding:0}
             </button>
             <!-- 'style' added to align image with navbar. FIX THIS -->
             <a class="navbar-brand" href="https://db.apache.org/jdo/">
-                <img style="margin-top: -12px;" alt="Brand" src="images/datanucleus_icon.png"/>
+                <img style="margin-top: -12px;" alt="Brand" src="images/JDO_44x44.png"/>
             </a>
             <!-- TODO Any way to abstract the version from Maven? -->
             <a class="navbar-brand" href="index.html">Apache JDO</a>
@@ -179,17 +180,6 @@ table.CodeRay td.code>pre{padding:0}
                         <li><a href="jdo_v_jpa_orm.html">JDO v JPA : ORM</a></li>
                         <li><a href="downloads.html">Downloads</a></li>
                         <li><a href="http://www.apache.org/licenses/LICENSE-2.0">License</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li class="dropdown-header">Reference Documents</li>
-                        <li><a href="jdo/annotations.html">Annotations Reference</a></li>
-                        <li><a href="jdo/metadata_xml.html">XML Metadata Reference</a></li>
-                        <li><a href="jdo/metadata_api.html">Metadata API Reference</a></li>
-                        <li><a href="http://www.datanucleus.org/javadocs/javax.jdo/3.2/">JDO 3.2 Javadocs</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="jdo/tutorial.html">JDO Tutorial</a></li>
-                        <li><a href="https://github.com/datanucleus/samples-jdo">JDO Samples</a></li>
-                        <li><a href="https://github.com/datanucleus/datanucleus-api-jdo/blob/master/JDO-SPEC-3.1.pdf"><i>JDO 3.1 spec</i></a></li>
-                        <li><a href="http://db.apache.org/jdo/"><i>Apache JDO project</i></a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -197,26 +187,35 @@ table.CodeRay td.code>pre{padding:0}
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">JDO Implementation <span class="caret"></span></a>
                   
                     <ul class="dropdown-menu">
-                        <li><a href="jpa/getting_started.html">Getting Started</a></li>
-                        <li><a href="jpa/mapping.html">Mapping</a></li>
-                        <li><a href="jpa/enhancer.html">Enhancer</a></li>
-                        <li><a href="jpa/persistence.html">Persistence</a></li>
-                        <li><a href="jpa/query.html">Queries</a></li>
-                        <li><a href="jpa/tools.html">Tools</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li class="dropdown-header">Reference Documents</li>
-                        <li><a href="jpa/annotations.html">Annotations Reference</a></li>
-                        <li><a href="jpa/metadata_xml.html">ORM.XML Reference</a></li>
-                        <li><a href="http://www.datanucleus.org/javadocs/javax.persistence/2.2/">JPA 2.2 Javadocs</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="jpa/tutorial.html">JPA Tutorial</a></li>
-                        <li><a href="https://github.com/datanucleus/samples-jpa">JPA Samples</a></li>
-                        <li><a href="https://github.com/datanucleus/datanucleus-api-jpa/blob/master/JPA-SPEC-2.2.pdf"><i>JPA 2.2 spec</i></a></li>
+                        <li><a href="specifications.html">Specifications</a></li>
+                        <li><a href="tck.html">TCK</a></li>
                     </ul>
                 </li>
-                <li><a href="rest/rest.html">REST API</a></li>
-                <li><a href="datastores/datastores.html">Datastores</a></li>
-                <li><a href="extensions/extensions.html">Extension Points</a></li>
+                <li class="dropdown">
+                  
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">JDO Usage <span class="caret"></span></a>
+                  
+                    <ul class="dropdown-menu">
+                        <li><a href="impls.html">Implementations</a></li>
+                        <li><a href="javadoc.html">API Javadoc</a></li>
+                        <li><a href="class_types.html">Types of Classes</a></li>
+                        <li><a href="field_types.html">Types of Fields</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">Metadata</li>
+                        <li><a href="metadata.html">MetaData</a></li>
+                        <li><a href="annotations.html">Annotations</a></li>
+                        <li><a href="jdo_dtd.html">jdo DTD/XSD</a></li>
+                        <li><a href="orm_dtd.html">orm DTD/XSD</a></li>
+                        <li><a href="jdoquery_dtd.html">jdoquery DTD/XSD</a></li>
+                        <li><a href="jdoconfig_dtd.html">jdoconfig DTD/XSD</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="enhancement.html">Bytecode Enhancement</a></li>
+                        <li><a href="jdohelper.html">JDO Helper</a></li>
+                    </ul>
+                </li>
+                <li><a href="jdo_3_0_overview.html">Articles</a></li>
+                <li><a href="extensions/extensions.html">Community</a></li>
+                <li><a href="extensions/extensions.html">Development</a></li>
             </ul>
         </div>
     </div>
@@ -342,25 +341,24 @@ pm.getExtent()</p></td>
 <div class="container">
     <hr/>
     <div class="row">
-        <div class="col-sm-2">
-            Support : 
-        </div>
-        <div class="col-sm-3">
-            <a href="https://groups.io/g/datanucleus">Groups.IO</a>
-        </div>
-        <div class="col-sm-3">
-            
-            
-                <a href="https://gitter.im/datanucleus/Lobby">Gitter</a>
-            
-            
-        </div>
-        <div class="col-sm-4">
-            <a href="http://www.datanucleus.org/documentation/problem_reporting.html">Problem Reporting</a>
+        <div class="col-sm-9">
+    <a href="https://www.facebook.com/JavaDataObjects" class="externalLink" title="Facebook">Facebook</a>
+            |
+                        <a href="https://twitter.com/JavaDataObjects" class="externalLink" title="Twitter">Twitter</a>
+            |
+                        <a href="https://plus.google.com/106584233526334524963" class="externalLink" title="Google+">Google+</a>
+            |
+                        <a href="http://wiki.apache.org/jdo" class="externalLink" title="Wiki">Wiki</a>
+            |
+                        <a href="http://issues.apache.org/jira/secure/BrowseProject.jspa?id=10630" class="externalLink" title="Issue Tracker">Issue Tracker</a>
+            |
+                        <a href="mail-lists.html" title="Mailing Lists">Mailing Lists</a>
+            |
+                        <a href="api30/apidocs/index.html" title="Latest Javadocs">Latest Javadocs</a>
         </div>
     </div>
     <hr/>
-    <p class="text-center">&copy; 2008-2019 DataNucleus, Licensed under the <a href="http://www.datanucleus.org/documentation/license.html">Apache License, Version 2.0.</a></p>
+    <p class="text-center">&copy; 2005-2019 Apache Software Foundation. All Rights Reserved.</p>
 </div>
 </footer>
 </body>
